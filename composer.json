@@ -1,24 +1,23 @@
 {
     "name": "safa/recaptcha-bundle",
-    "type": "symfony-bundle",
     "authors": [
         {
             "name": "safatouati1",
             "email": "safatouati10@gmail.com"
         }
     ],
-    "require": {  "php": "^7.1.3"},
-
+    "require": {
+            "php": "7.3.1"
+    },
     "autoload": {
             "psr-4": {
-            "Grafikart\\RecaptchaBundle\\": "RecaptchaBundle"
-}
-},
+              "Grafikart\\RecaptchaBundle\\": "RecaptchaBundle/"
+    }
+  },
     "repositories": [
     {
-             "type": "path",
-             "url": "RecaptchaBundle"
+            "type": "path",
+            "url": "RecaptchaBundle"
     }
   ]
-
 }
