@@ -1,5 +1,7 @@
 {
     "name": "safa/recaptcha-bundle",
+    "description": "A short description of what your package does",
+    "type": "symfony-bundle",
     "authors": [
         {
             "name": "safatouati1",
